@@ -17,6 +17,16 @@
   transition: all 0.2s linear;
 }
 
+.me{
+  color: var(--green);
+  text-decoration: none;
+  cursor: auto;
+}
+
+.me:visited:active, .me:link:active{
+  color:var(--black);
+}
+
 ::selection {
   background: var(--green);
   color: #fff;
